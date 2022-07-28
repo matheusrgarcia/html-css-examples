@@ -1,0 +1,56 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.titulo {
+  font-size: 45px;
+  text-align: center;
+}
+
+.item {
+  background-color: #282a35;
+  padding: 20px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.item h1 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.item p {
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+button {
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 4px;
+  align-self: bottom;
+  cursor: pointer;
+}
+
+.background-blue {
+  background-color: #1666df;
+}
+
+.background-red {
+  background-color: #df1616;
+}
+
+.background-pink {
+  background-color: #ee2de4;
+}
+
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
