@@ -1,0 +1,74 @@
+body,
+html {
+  font-family: "Arial", sans-serif;
+  background: #e9e9eb;
+  font-weight: 700;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgb(197, 197, 197);
+  width: 350px;
+  height: max-content;
+  padding: 16px;
+  align-self: center;
+  display: grid;
+  gap: 6px;
+}
+
+.titulo h1 {
+  margin-top: 0;
+  padding-bottom: 6px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 5px solid rgb(197, 197, 197);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.titulo span {
+  font-size: 25px;
+  color: #3850a0;
+}
+
+.form .titulo-input {
+  font-size: 12px;
+  font-weight: bolder;
+  color: #0e2779;
+}
+
+input {
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+img {
+  width: 100%;
+}
+
+.pesquisa {
+  color: #fff;
+  height: 32px;
+  padding: 4px;
+  text-transform: uppercase;
+  background-color: #0e2779;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.mais {
+  color: #000;
+  height: 32px;
+  padding: 4px;
+  text-transform: uppercase;
+  background-color: #D7AC03;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
